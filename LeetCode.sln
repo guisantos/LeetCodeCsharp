@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{AB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A667E598-3E3A-4AB0-9AA6-AD6F16137A01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "Solution\LeetCode.csproj", "{F2E2BF5E-8765-4413-A8D8-79CD71D72DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode.Solution", "Solution\LeetCode.Solution.csproj", "{F2E2BF5E-8765-4413-A8D8-79CD71D72DB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
