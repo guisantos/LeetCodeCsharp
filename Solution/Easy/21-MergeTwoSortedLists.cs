@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Solution.Easy;
+﻿using LeetCode.Solution.Helpers;
+
+namespace LeetCode.Solution.Easy;
 public class MergeTwoSortedLists
 {
     //https://www.youtube.com/watch?v=E5XXiY6QnAs
@@ -26,14 +28,5 @@ public class MergeTwoSortedLists
         return head.next;
     }
 
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+    
 }
