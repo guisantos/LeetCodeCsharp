@@ -1,4 +1,6 @@
-﻿namespace LeetCode;
+﻿using LeetCode.Solution.Easy;
+
+namespace LeetCode;
 
 internal class Program
 {
