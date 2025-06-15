@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode;
+namespace LeetCode.Solution.Easy;
 public class SearchInsertPosition
 {
     // https://www.youtube.com/watch?v=v4J_AWp-6EQ

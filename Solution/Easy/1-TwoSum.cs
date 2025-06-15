@@ -1,4 +1,4 @@
-﻿namespace LeetCode;
+﻿namespace LeetCode.Solution.Easy;
 public class TwoSum
 {
     // O(^2)
@@ -19,7 +19,7 @@ public class TwoSum
 
         return result;
     }
-    
+
     // O(n)
     public int[] TwoSumHashMap(int[] nums, int target)
     {

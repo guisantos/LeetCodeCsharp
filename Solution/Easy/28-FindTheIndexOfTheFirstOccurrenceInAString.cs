@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Solution;
+namespace LeetCode.Solution.Easy;
 public class FindTheIndexOfTheFirstOccurrenceInAString
 {
     //https://www.youtube.com/watch?v=0iDiUuHZE_g

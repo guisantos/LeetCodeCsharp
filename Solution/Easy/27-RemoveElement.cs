@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode;
+namespace LeetCode.Solution.Easy;
 public class RemoveElement
 {
     // https://www.youtube.com/watch?v=pGKDzt0gk-A

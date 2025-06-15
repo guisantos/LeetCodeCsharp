@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode;
+namespace LeetCode.Solution.Easy;
 public class MergedSortedArray
 {
     // https://www.youtube.com/watch?v=EIVeJLgPMLw

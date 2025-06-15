@@ -1,4 +1,4 @@
-﻿namespace LeetCode;
+﻿namespace LeetCode.Solution.Easy;
 public class ValidParenthesis
 {
     // https://www.youtube.com/watch?v=YwvHeouhy6s
@@ -52,9 +52,9 @@ public class ValidParenthesis
             {
                 // If stack is empty or top doesn't match opening pair
                 if (top < 0 ||
-                    (c == ')' && stack[top] != '(') ||
-                    (c == '}' && stack[top] != '{') ||
-                    (c == ']' && stack[top] != '['))
+                    c == ')' && stack[top] != '(' ||
+                    c == '}' && stack[top] != '{' ||
+                    c == ']' && stack[top] != '[')
                 {
                     return false;
                 }

@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Solution;
+﻿namespace LeetCode.Solution.Easy;
 public class MergeTwoSortedLists
 {
     //https://www.youtube.com/watch?v=E5XXiY6QnAs

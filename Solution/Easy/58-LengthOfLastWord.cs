@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Solution;
+﻿namespace LeetCode.Solution.Easy;
 public class LengthOfLastWord
 {
     // https://www.youtube.com/watch?v=rxb7umOJScc
@@ -10,7 +10,7 @@ public class LengthOfLastWord
         var i = s.Length - 1;
         // skip trailing spaces
         // finding the last character of the last word
-        while (i >= 0 && s[i] == ' ') 
+        while (i >= 0 && s[i] == ' ')
         {
             i--;
         }
