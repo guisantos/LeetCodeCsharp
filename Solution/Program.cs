@@ -1,4 +1,5 @@
-﻿using LeetCode.Solution.Easy;
+﻿using System.Globalization;
+using LeetCode.Solution.Easy;
 
 namespace LeetCode;
 
@@ -6,10 +7,35 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        var plusOne = new PlusOne();
+        // two sum
 
-        int[] nums = [4, 3, 7, 0];
+        int[] nums = [2, 1, 5, 3];
+        int target = 4;
 
-        var result = plusOne.PlusOneSolution(nums);
+        var result = TwoSums(nums, target);
+        foreach (var i in result)
+        {
+            Console.WriteLine(i);
+        }
+    }
+
+    public static int[] TwoSums(int[] nums, int target)
+    {
+        var hashMap = new Dictionary<int, int>();
+        int index = 0;
+        foreach (var num in nums)
+        {
+            if (hashMap.ContainsKey(num))
+            {
+                var oldNum = hashMap[num];
+                return [oldNum, index];
+            }
+            var diff = num - target;
+            hashMap.TryAdd(diff, index);
+
+            index++;
+        }
+
+        return [0,0];
     }
 }
